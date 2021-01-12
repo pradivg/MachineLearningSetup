@@ -1,0 +1,19 @@
+Go to https://www.python.org/downloads/windows/
+Select the stable installer file and download the amd64 file 
+Open the amd64 file 
+Do not forget to select "Add Python to PATH" check button. 
+
+Once the setup is complete:
+win + R  and type cmd and hit the enter key 
+
+In the command promt window :
+C:\Users\Admin>python
+'python' is not recognized as an internal or external command,
+operable program or batch file.
+
+If you get the above error, try this. 
+
+C:\Users\Admin>py
+Python 3.8.7 (tags/v3.8.7:6503f05, Dec 21 2020, 17:59:51) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
