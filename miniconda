@@ -1,0 +1,34 @@
+Have the Python 3 +  pre-installed in your computer. 
+
+Go to https://docs.conda.io/en/latest/miniconda.html and download the installer file for the python version.
+
+Open the anaconda prompt :
+
+To make sure that you are with the updated version 
+Run:
+(base) F:\> conda update -n base -c defaults conda
+
+To create a conda environment with required tools
+Run:
+(base) F:\>mkdir AI
+
+(base) F:\>cd AI
+
+(base) F:\AI>conda create --prefix ./env pandas numpy matplotlib scikit-learn
+
+To activate conda environment 
+Run: 
+(base) F:\AI>conda activate F:\AI\env
+
+To isntall additional tools
+Run: 
+(F:\AI\env) F:\AI>conda install jupyter
+
+To launch Jupyter Notebook for your project directory 
+
+(F:\AI\env) F:\AI> jupyter notebook
+
+Note: Complete Step by step instructions with video tutorial for Mac, Windows and Linux is available at: 
+https://academy.zerotomastery.io/p/complete-machine-learning-and-data-science-bootcamp-zero-to-mastery
+Twitter : https://twitter.com/zerotomasteryio
+https://twitter.com/mrdbourke
