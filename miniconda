@@ -28,6 +28,14 @@ To launch Jupyter Notebook for your project directory
 
 (F:\AI\env) F:\AI> jupyter notebook
 
+If you experience Kernel error: kernel Unhandled error
+from anaconda prompt 
+(F:\AI\env) F:\AI>conda install pywin32
+(F:\AI\env) F:\AI>pip install jupyter_client --upgrade
+
+open an ipynb file to change the kernel
+kernel->env 
+
 Note: Complete Step by step instructions with video tutorial for Mac, Windows and Linux is available at: 
 https://academy.zerotomastery.io/p/complete-machine-learning-and-data-science-bootcamp-zero-to-mastery
 Twitter : https://twitter.com/zerotomasteryio
