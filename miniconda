@@ -14,7 +14,7 @@ Run:
 
 (base) F:\>cd AI
 
-(base) F:\AI>conda create --prefix ./env pandas numpy matplotlib scikit-learn nltk scipy seaborn tensforflow keras Pillow plotly
+(base) F:\AI>conda create --prefix ./env pandas numpy matplotlib scikit-learn nltk scipy seaborn tensorflow keras Pillow plotly
 
 To activate conda environment 
 Run: 
