@@ -36,6 +36,16 @@ from anaconda prompt
 open an ipynb file to change the kernel
 kernel->env 
 
+If you experience FileNotFoundError: [WinError 2] and jupyter notebook doesnt work
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+(f:\Academia\AI\env) F:\Academia\AI>python -m ipykernel install --user
+Installed kernelspec python3 in C:\Users\Admin\AppData\Roaming\jupyter\kernels\python3
+
+(f:\Academia\AI\env) F:\Academia\AI>jupyter notebook
+
+open an ipynb file and use python3 as the kernel.
+
 Note: Complete Step by step instructions with video tutorial for Mac, Windows and Linux is available at: 
 https://academy.zerotomastery.io/p/complete-machine-learning-and-data-science-bootcamp-zero-to-mastery
 Twitter : https://twitter.com/zerotomasteryio
